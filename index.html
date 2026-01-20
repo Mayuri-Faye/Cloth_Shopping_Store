@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fashion Hub | Clothing Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <div class="logo">FashionHub</div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Men</a>
+        <a href="#">Women</a>
+        <a href="#">Kids</a>
+        <a href="#">Offers</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="icons">
+        <button onclick="showAlert('Search clicked')">🔍</button>
+        <button onclick="showAlert('Cart clicked')">🛒</button>
+        <button onclick="showAlert('Login clicked')">👤</button>
+    </div>
+</header>
+
+<!-- Banner -->
+<section class="banner">
+    <h1>New Season Collection</h1>
+    <p>Flat 50% Off on Selected Items</p>
+    <button>Shop Now</button>
+</section>
+
+<!-- Categories -->
+<section class="categories">
+    <div class="category">Men</div>
+    <div class="category">Women</div>
+    <div class="category">Kids</div>
+    <div class="category">Accessories</div>
+</section>
+
+<!-- Products -->
+<section class="products">
+    <h2>Featured Products</h2>
+    <div class="product-list">
+
+        <div class="product">
+            <div class="img-box">👕</div>
+            <h3>Men T-Shirt</h3>
+            <p>₹799</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <div class="img-box">👗</div>
+            <h3>Women Dress</h3>
+            <p>₹1,499</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <div class="img-box">👖</div>
+            <h3>Kids Jeans</h3>
+            <p>₹999</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 FashionHub. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
